@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Stroy</string>
+    <string name="search_hint">Search</string>
+    <string name="cardMain">Трубы из сшито...</string>
+    <string name="card2Text">трубы, отопление</string>
+    <string name="cardPrice">999.9RUB</string>
+    <string name="cardTime">30-40 мин</string>
+    <string name="txt1">Закажи у нас услугу</string>
+    <string name="txt2">сейчас</string>
+</resources>

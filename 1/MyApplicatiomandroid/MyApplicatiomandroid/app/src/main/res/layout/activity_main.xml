@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="91dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-54dp"
+        android:layout_marginTop="-6dp"
+        android:background="@drawable/rectangle_1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="53dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:lineHeight="21.94dp"
+        android:text="Ваш заказ"
+        android:textColor="#FFFFFF"
+        android:textFontWeight="700"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="53dp"
+        android:background="@drawable/ic_baseline_keyboard_arrow_down_24"
+        android:clipToOutline="true" />
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="122dp"
+        android:layout_marginBottom="665dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="top"
+        android:textStyle="bold"
+        android:lineHeight="22sp"
+        android:text="Информация"
+        android:textColor="#000000"
+        android:textFontWeight="700"
+        android:textSize="18dp" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="42dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="157dp"
+        android:background="@drawable/rect17" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="5dp"
+        android:layout_height="15dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="166dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:lineHeight="14.63dp"
+        android:text="1"
+        android:textColor="#FF9500"
+        android:textFontWeight="400"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="156dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:lineHeight="12.19dp"
+        android:text="RFI-3 BIOT™ RAPID, СОМЗ"
+        android:textColor="#000000"
+        android:textFontWeight="700"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="60dp"
+        android:layout_height="11dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="176dp"
+        android:text="9 999,99 RUB"
+        android:textFontWeight="400"
+        android:textStyle="normal"
+        android:textSize="9dp"
+        android:lineHeight="10.97dp"
+        android:textColor="#FF9500"
+        android:fontFamily="@font/montserrat_bold"
+        />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="400dp"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="208dp"
+        android:background="#BCBCBC" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="153dp"
+        android:layout_marginEnd="39dp"
+        android:background="@drawable/elipse14"/>
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31.87dp"
+        android:layout_marginTop="233.87dp"
+        android:background="@drawable/vec1" />
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="4dp"
+        android:layout_height="4dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="38.5dp"
+        android:layout_marginTop="245.5dp"
+        android:background="@drawable/toc1" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="4dp"
+        android:layout_height="4dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="245.5dp"
+        android:background="@drawable/toc1" />
+
+    <View
+        android:id="@+id/view9"
+        android:layout_width="4dp"
+        android:layout_height="4dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="245.5dp"
+        android:background="@drawable/toc1" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="131dp"
+        android:layout_height="12dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="240dp"
+        android:text="Добавить комментарий"
+        android:textFontWeight="700"
+        android:textStyle="bold"
+        android:textSize="10dp"
+        android:lineHeight="12.19dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/montserrat_bold"/>
+
+    <View
+        android:id="@+id/view10"
+        android:layout_width="424dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="21dp"
+        android:background="@drawable/rec1"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="71dp"
+        android:layout_height="13dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"
+        android:text="9999,99 RUB"
+        android:textFontWeight="400"
+        android:textStyle="bold"
+        android:textSize="11dp"
+        android:lineHeight="13.41dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="#FFFF"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="122dp"
+        android:layout_marginBottom="47dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:lineHeight="23.16dp"
+        android:text="Перейтий к оплате"
+        android:textColor="#FFFF"
+        android:textFontWeight="700"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+</RelativeLayout>
+

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="424dp"
+        android:layout_height="272dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/karta"
+        android:layerType="hardware"
+        tools:layout_editor_absoluteX="-7dp"
+        tools:layout_editor_absoluteY="91dp" />
+        <View
+        android:id="@+id/rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:layout_marginTop="-24dp"
+        android:background="@drawable/rectangle" />
+
+    <TextView
+
+        android:layout_width="251dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginRight="62dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/coordinate"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/ic_baseline_arrow_back_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="286dp"
+        android:fontFamily="monospace"
+        android:text="@string/how"
+        android:textColor="@color/black"
+        android:textFontWeight="700"
+        android:textSize="22sp" />
+
+</RelativeLayout>

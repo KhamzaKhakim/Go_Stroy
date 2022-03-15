@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">goStroy</string>
+    <string name="name">Привет, Багдат</string>
+    <string name="choosePayment">Способы оплаты</string>
+    <string name="noPayment">У вас не привязона карта</string>
+    <string name="bonus">Бонусы</string>
+    <string name="noBonus">У вас нет бонусов</string>
+    <string name="rub">0,00 RUB</string>
+    <string name="BONUS">Бонусы! Бонусы! Бонусы!</string>
+    <string name="B">Багдат, приглашайте друзей и зарабатывайте бонусы с их первых заказов! Это очень удобно! :)</string>
+    <string name="links">Полезные ссылки</string>
+    <string name="getBonus">Получить бонусы</string>
+    <string name="promoCode">Ввести промо-код</string>
+    <string name="help">Служба поддержки</string>
+    <string name="history">История заказов</string>
+</resources>

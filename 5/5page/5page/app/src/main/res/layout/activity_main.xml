@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+ <View
+     android:id="@+id/view20"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentStart="true"
+     android:layout_alignParentTop="true"
+     android:layout_marginStart="0dp"
+     android:layout_marginTop="6dp"
+     android:background="#C4C4C4" />
+
+
+ <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="525dp"
+        android:background="@drawable/rec10" />
+
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/circle"/>
+
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="24dp"
+        android:layout_height="22dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="49dp"
+       />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="5dp"
+        android:layout_height="9.17dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="55.42dp"
+        android:background="@drawable/vec25"/>
+
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="18dp"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="59.50dp"
+        android:background="@drawable/vc25" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="442dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:lineHeight="23.16dp"
+        android:text="RFI-3 BIOT™ RAPID, СОМЗ"
+        android:textColor="#000000"
+        android:textFontWeight="700"
+        android:textSize="19dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="101dp"
+        android:layout_height="18dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="472dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:text="В наличии"
+        android:textFontWeight="400"
+        android:textSize="15dp"
+        android:lineHeight="18.29dp"
+        android:textColor="#000000"
+        android:textStyle="normal"
+        />
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="7dp"
+        android:layout_height="7dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/elips12"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="528dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:lineHeight="15.85dp"
+        android:text="Отзывы: 8.5/10"
+        android:textColor="#000000"
+        android:textFontWeight="400"
+        android:textSize="13dp"
+        android:textStyle="normal" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="531dp" />
+
+    <View
+        android:id="@+id/view9"
+        android:layout_width="4.58dp"
+        android:layout_height="4.8dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22.58dp"
+        android:layout_marginTop="532dp"
+        android:background="@drawable/v1"/>
+
+    <View
+        android:id="@+id/view10"
+        android:layout_width="4.58dp"
+        android:layout_height="4.8dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="532dp"
+        android:background="@drawable/v2"/>
+
+    <View
+        android:id="@+id/view11"
+        android:layout_width="5.5dp"
+        android:layout_height="5.5dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26.3dp"
+        android:layout_marginTop="534.5dp"
+        android:background="@drawable/v3" />
+
+    <View
+        android:id="@+id/view12"
+        android:layout_width="2.75dp"
+        android:layout_height="2.52dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="22.75dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="539dp"
+        android:background="@drawable/v4"/>
+
+    <View
+        android:id="@+id/view14"
+        android:layout_width="9.17dp"
+        android:layout_height="2.75dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="23.75dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="541dp"
+        android:background="@drawable/v6"
+        />
+
+    <View
+        android:id="@+id/view13"
+        android:layout_width="2.75dp"
+        android:layout_height="2.5dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31.75dp"
+        android:layout_marginTop="539dp"
+        android:background="@drawable/v5" />
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="590dp"
+        android:lineHeight="15.85dp"
+        android:text="Доставка через..."
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:textColor="#000000"
+        android:textSize="13dp"
+        android:textFontWeight="400"
+        android:textStyle="normal"/>
+
+
+    <RelativeLayout
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="562dp">
+
+
+        <View
+            android:id="@+id/view16"
+            android:layout_width="11.67dp"
+            android:layout_height="7.95dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="1.54dp"
+            android:layout_marginTop="2.4dp"
+            android:background="@drawable/vcc1"/>
+
+        <View
+            android:id="@+id/view18"
+            android:layout_width="11.67dp"
+            android:layout_height="7.95dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="2.4dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="4.5dp"
+            android:background="@drawable/vccc2"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="562dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:lineHeight="15.85dp"
+        android:text="Высокое качество изготовления"
+        android:textFontWeight="400"
+        android:textSize="13dp"
+        android:textColor="#000000"/>
+
+    <RelativeLayout
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="590dp"
+        android:background="@drawable/lc24">
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view19"
+        android:layout_width="match_parent"
+        android:layout_height="362dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/rec1" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginBottom="197dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:text="RFI-3 BIOT™ RAPID, СОМЗ"
+        android:textFontWeight="700"
+        android:textSize="19dp"
+        android:lineHeight="23.16dp"
+        android:textStyle="normal"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginBottom="163dp"
+        android:text="9 999,99 RUB"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:textFontWeight="700"
+        android:textColor="#FF9500"
+        android:textSize="9dp"
+        android:lineHeight="10.97dp"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginBottom="120dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:text="Уникальным защитным свойством каски Эйрвинг B-WR является система вентиляции Uvex «Климазон». Система разработана Uvex в результате исследований и компьютерного моделирования. "
+        android:textFontWeight="400"
+        android:textSize="9dp"
+        android:textColor="#000000"
+        android:textStyle="normal" />
+
+    <View
+        android:id="@+id/view21"
+        android:layout_width="125dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginBottom="34dp"
+        android:background="@drawable/rec2"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="4dp"
+        android:layout_height="11dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="44dp"
+        android:text="-"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:textFontWeight="700"
+        android:lineHeight="10.97dp"
+        android:textColor="@color/white"
+        android:textSize="8dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="4dp"
+        android:layout_height="11dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginBottom="45dp"
+        android:text="1"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:textColor="@color/white"
+        android:textFontWeight="700"
+        android:textSize="9dp"/>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="6dp"
+        android:layout_height="11dp"
+        android:text="+"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:textSize="9dp"
+        android:textColor="@color/white"
+        android:textFontWeight="700"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="130dp"
+        android:lineHeight="10.97dp"/>
+
+    <View
+        android:id="@+id/view22"
+        android:layout_width="207dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="154dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="33dp"
+        android:background="@drawable/rec3" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="162dp"
+        android:layout_marginBottom="44dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:text="УБРАТЬ"
+        android:textFontWeight="700"
+        android:textSize="9dp"
+        android:lineHeight="10.97dp"
+        android:textStyle="normal"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="63dp"
+        android:layout_height="11dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="370dp"
+        android:layout_marginBottom="43dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:text="9 999,99 RUB"
+        android:textSize="9dp"
+        android:textColor="@color/white"
+        android:textFontWeight="700"
+        android:textStyle="normal"/>
+
+</RelativeLayout>
